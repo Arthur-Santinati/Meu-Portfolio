@@ -1,0 +1,44 @@
+.social-sec {
+  background-color: var(--primary);;
+
+
+  .container-social {
+    display: flex;
+    justify-content: space-evenly;
+
+    .social-div {
+      display: flex;
+      flex-direction: column;
+      width: 100px;
+      align-items: center;
+      justify-content: center;
+
+      .name-social {
+        margin-top: 12px;
+        color: white;
+        cursor: pointer;
+      }
+
+      .div-outer-icon {
+        width: 80px;
+        height: 80px;
+        border: 1px dashed white;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .icon-img {
+          padding: 25px;
+          filter: grayscale(100%);
+          cursor: pointer;
+        }
+
+        svg {
+          width: 45px;
+          height: 45px;
+        }
+      }
+    }
+  }
+}

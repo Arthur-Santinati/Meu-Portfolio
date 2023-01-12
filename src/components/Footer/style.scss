@@ -1,0 +1,21 @@
+#footer {
+    color: #313030;
+    font-size: 14px;
+    background: #fff;
+
+    .container-footer {
+        display: flex;
+        flex-direction: row;
+        justify-items: center;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        gap: 20%;
+    }
+
+    .credits {
+        padding-top: 5px;
+        font-size: 13px;
+        color: #313030;
+    }
+}
