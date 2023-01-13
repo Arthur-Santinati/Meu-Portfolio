@@ -5,7 +5,9 @@ import 'aos/dist/aos.css';
 
 function App() {
 
+
   useEffect(() => {
+    document.title = "Portfólio Arthur"
     AOS.init();
 }, [])
 

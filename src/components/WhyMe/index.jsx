@@ -12,13 +12,8 @@ export const WhyMe = () => {
                         <div className='content'>
                             <h3>Por que quis trabalhar com tecnologia?</h3>
                             <p>
-                                Segurança, confidencialidade de dados, aderência à LGPD, são apenas alguns temas que podemos apoiar o
-                                seu negócio
+                                Aqui estão alguns pontos pelo qual pensei bastante antes de entrar nesse mundo gigante que é a tecnologia.
                             </p>
-
-                            <div className='text-center'>
-                                {/* <a href='https://www.google.com.br/' className='more-btn'>Saiba porque<i className='bx bx-chevron-right'></i></a> */}
-                            </div>
                         </div>
                     </div>
                     <div className='col-xl-8 col-lg-7 d-flex'>
@@ -28,7 +23,7 @@ export const WhyMe = () => {
                                     <div className='icon-box mt-4 mt-xl-0'>
                                         <i className='bx bx-receipt'></i>
                                         <h4>Vontade</h4>
-                                        <p>Treinamentos, Consultoria e Certificações</p>
+                                        <p>Sempre tive vontade de entender o que acontecia por trás dos sites, aplicativos, como as coisas aconteciam em um passe de "mágica".</p>
                                     </div>
                                 </div>
 
@@ -36,7 +31,7 @@ export const WhyMe = () => {
                                     <div className='icon-box mt-4 mt-xl-0'>
                                         <i className='bx bx-cube-alt'></i>
                                         <h4>Desafios</h4>
-                                        <p>Pentests, Assessments de segurança e Prevenção contra crimes cibernéticos</p>
+                                        <p>O mundo da programação gira em torno de resolver problemas, bugs, melhorar a cada dia, e esse desafio sempre me deixou instigado a ser uma dessas pessoas que resolvem bugs e deixam tudo funcionando.</p>
                                     </div>
                                 </div>
 
@@ -44,7 +39,7 @@ export const WhyMe = () => {
                                     <div className='icon-box mt-4 mt-xl-0'>
                                         <i className='bx bx-images'></i>
                                         <h4>Superação</h4>
-                                        <p>Softwares mais seguros, Soluções multi-plataforma e Ferramentas</p>
+                                        <p>Um progamador se supera a cada dia, construindo códigos funcionais e úteis, e esse sentimento de se superar sempre me inspirou a ser um desenvolvedor.</p>
                                     </div>
                                 </div>
                             </div>

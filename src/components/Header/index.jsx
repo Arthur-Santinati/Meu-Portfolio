@@ -16,7 +16,6 @@ export const Header = () => {
     return (
         <header id='header' className='d-flex align-items-center'>
             <div className='container d-flex align-items-center justify-content-between'>
-
                 <div className='logo'>
                     <h1>Meu portfólio</h1>
                 </div>
@@ -26,7 +25,7 @@ export const Header = () => {
                         <li><Link className='nav-link scrollto active' to='/' onClick={(event) => selecionaPágina(event)}>Home</Link></li>
                         <li><a className='nav-link scrollto' href='#about' onClick={(event) => selecionaPágina(event)}>Sobre mim</a></li>
                         <li className='dropdown'>
-                            <a href='#about'>
+                            <a href='#services'>
                                 <span className='nav-link scrollto'>Projetos</span> 
                                 <i className='bi bi-chevron-down'></i>
                             </a>

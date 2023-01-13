@@ -14,17 +14,16 @@ export const About = () => {
                     </div>
 
                     <div className='col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5'>
-                        <h4 className='border-start border-primary px-4' data-aos-duration="1700" data-aos='fade-up'>Sobre nós</h4>
-                        <h3 data-aos-duration="1700" data-aos='fade-up'>Quem nós somos?</h3>
+                        <h4 className='border-start border-primary px-4' data-aos-duration="1700" data-aos='fade-up'>Sobre mim</h4>
+                        <h3 data-aos-duration="1700" data-aos='fade-up'>Quem sou eu?</h3>
                         <p data-aos-duration="1700" data-aos='fade-up'>
-                            A Casttrof é uma empresa brasileira, jovem e vibrante que oferece serviços
-                            relacionados com segurança cibernética e privacidade a seus clientes. Somos mais que uma consultoria.
+                            Nasci em Americana - SP em fevereiro de 2002, tenho 21 anos, e moro com meus pais e meu irmão mais novo. Me formei no ensino médio no colégio Dom Bosco em 2019 e estou terminando meu curso da <b>Trybe</b> em fevereiro.
                             <br />
                             <br />
-                            Nossa equipe é altamente qualificada pela experiência de mercado e as certificações mais relevantes do
-                            setor, tendo como fator crucial de sucesso ouvir nossos clientes e aplicar sua missão e seus valores ao
-                            longo das jornadas de adequação e melhoria contínua, com a certeza de que nossa excelência em serviços
-                            contribui de forma definitiva para o alto valor agregado no mercado e o sucesso de nossos clientes.
+                            Minha história no mundo da tecnologia começou assim que sai do ensino médio, tinha que decidir qual caminho seguir, até que surgiu a oportunidade de ir fazer um intercâmbio para a Irlanda, lugar onde trabalhei, estudei, e morei lá durante 6 meses. Com as experiencias que adquiri lá, voltei querendo trabalhar com programação ou algo do tipo, e assim fui pesquisando até encontrar a trybe, e começar a estudar sozinho para conseguir passar nos testes para poder cursar  curso de desenvolvimento Full Stack de 1 ano, onde aprendi fundamentos do desenvolvimento web, front-end, back-end e fundamentos da ciência da computação.
+                            <br />
+                            <br />
+                            E assim que conheci o front-end me apaixonei pela criação de sites e o poder que isso tinha, e no curso fiz mais de 35 projetos, 1500 horas de aula, e aprendi várias linguagens, bibliotecas, e algumas delas são: JavaScript, Python, React, CSS, HTML, TypeScript, e muitas aulas de softSkills e principalmente como trabalhar, ponto muito valioso que a trybe prega para os alunos.
                         </p>
                     </div>
                 </div>

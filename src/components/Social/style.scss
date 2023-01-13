@@ -9,12 +9,13 @@
     .social-div {
       display: flex;
       flex-direction: column;
-      width: 100px;
+      width: 200px;
       align-items: center;
       justify-content: center;
 
       .name-social {
         margin-top: 12px;
+        width: 120px;
         color: white;
         cursor: pointer;
       }
