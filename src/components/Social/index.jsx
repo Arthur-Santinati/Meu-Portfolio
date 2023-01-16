@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { AiOutlineFacebook, AiOutlineInstagram, AiOutlineLinkedin } from 'react-icons/ai';
+import { AiFillGithub, AiOutlineMail, AiOutlineLinkedin } from 'react-icons/ai';
 import { BsWhatsapp } from 'react-icons/bs';
 
 import './style.scss';
@@ -16,21 +16,21 @@ export const Social = () => {
       <div className='container-social container'>
         <div className='social-div' data-aos='fade-up' data-aos-duration="1700" data-aos-delay='100'>
           <div className='div-outer-icon' onClick={() => handleClickFacebook()}>
-            <a href='https://www.facebook.com/arthur.santinati/'>
-              <AiOutlineFacebook color='white' />
+            <a href='https://github.com/Arthur-Santinati/'>
+              <AiFillGithub color='white' />
             </a>
           </div>
-          <p className='name-social'>Arthur Santinati</p>
+          <p className='name-social'>Arthur-Santinati</p>
         </div>
 
         <div className='social-div' data-aos='fade-up' data-aos-duration="1700" data-aos-delay='400'>
           <div className='div-outer-icon' >
-            <a href='https://www.instagram.com/santinatiarthur/'>
-              <AiOutlineInstagram color='white' />
+            <a href='https://outlook.live.com/mail'>
+              <AiOutlineMail color='white' />
             </a>
 
           </div>
-          <p className='name-social'>@santinatiarthur</p>
+          <p className='name-social'>Arthur Santinati</p>
         </div>
 
         <div className='social-div' data-aos='fade-up' data-aos-duration="1700" data-aos-delay='700'>

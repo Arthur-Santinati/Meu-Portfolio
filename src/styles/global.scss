@@ -107,31 +107,31 @@ body {
     padding: 15px 0;
     background: #f4f2f2;
     margin-bottom: 40px;
-  }
-  
-  .breadcrumbs h2 {
-    font-size: 28px;
-    font-weight: 500;
-  }
-  
-  .breadcrumbs ol {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    padding: 0 0 10px 0;
-    margin: 0;
-    font-size: 14px;
-  }
-  
-  .breadcrumbs ol li+li {
-    padding-left: 10px;
-  }
-  
-  .breadcrumbs ol li+li::before {
-    display: inline-block;
-    padding-right: 10px;
-    color: #635551;
-    content: "/";
+    
+    h2 {
+      font-size: 28px;
+      font-weight: 500;
+    }
+
+    ol {
+      display: flex;
+      flex-wrap: wrap;
+      list-style: none;
+      padding: 0 0 10px 0;
+      margin: 0;
+      font-size: 14px;
+
+      li+li {
+        padding-left: 10px;
+
+        &::before {
+          display: inline-block;
+          padding-right: 10px;
+          color: #635551;
+          content: "/";
+        }
+      }
+    }
   }
   
   /*--------------------------------------------------------------

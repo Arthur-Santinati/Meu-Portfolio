@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from "react-router-dom";
 import './style.scss';
 
 export const Header = () => {
@@ -22,7 +21,7 @@ export const Header = () => {
 
                 <nav id='navbar' className='navbar'>
                     <ul>
-                        <li><Link className='nav-link scrollto active' to='/' onClick={(event) => selecionaPágina(event)}>Home</Link></li>
+                        <li><a className='nav-link scrollto active' href='#hero' onClick={(event) => selecionaPágina(event)}>Home</a></li>
                         <li><a className='nav-link scrollto' href='#about' onClick={(event) => selecionaPágina(event)}>Sobre mim</a></li>
                         <li className='dropdown'>
                             <a href='#services'>
