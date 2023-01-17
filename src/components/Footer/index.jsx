@@ -1,5 +1,5 @@
 import React from 'react';
-import { BiChevronRight } from 'react-icons/bi';
+// import { BiChevronRight } from 'react-icons/bi';
 // import { BsTwitter, BsFacebook, BsInstagram, BsSkype, BsLinkedin } from 'react-icons/bs';
 
 import './style.scss';
