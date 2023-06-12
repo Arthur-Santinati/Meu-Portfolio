@@ -7,6 +7,7 @@ import { Footer } from "../../components/Footer";
 import { Contact } from "../../components/Contact";
 import { Social } from "../../components/Social";
 import { MyServices } from "../../components/MyServices";
+import { Experiences } from "../../components/Experiences";
 
 export const Home = () => {
 
@@ -16,6 +17,7 @@ export const Home = () => {
           <Hero />
           <WhyMe />
           <About />
+          <Experiences/>
           <MyServices />
           <Contact />
           <Social />
